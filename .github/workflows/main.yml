@@ -2,6 +2,12 @@ name: Deploy PWA Starter to GitHub Pages
 
 on:
   workflow_dispatch:
+  
+# to set up automatic deployments:
+# push:
+#   branches:
+#     - main
+
 
 jobs:
   build:
